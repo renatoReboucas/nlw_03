@@ -10,6 +10,8 @@ import '../styles/pages/orphanages-map.css'
 import mapMarkerImg from '../assets/map.marker.svg'
 
 export default function OrphanagesMap() {
+  // console.log(process.env.REACT_APP_MAPBOX_TOKEN);
+  
   return (
     <div id="page-map">
       <aside>
