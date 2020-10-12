@@ -1,13 +1,14 @@
-#page-map{
+#page-map {
   width: 100vw;
   height: 100vh;
+
   position: relative;
   display: flex;
 }
 
-#page-map aside{
+#page-map aside {
   width: 440px;
-  background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
   padding: 80px;
 
   display: flex;
@@ -15,7 +16,7 @@
   justify-content: space-between;
 }
 
-#page-map aside h2{
+#page-map aside h2 {
   font-size: 40px;
   font-weight: 800;
   line-height: 42px;
@@ -27,31 +28,33 @@
   margin-top: 24px;
 }
 
-#page-map aside footer{
+#page-map aside footer {
   display: flex;
   flex-direction: column;
 
   line-height: 24px;
 }
 
-#page-map aside footer strong{
+#page-map aside footer strong {
   font-weight: 800;
 }
 
-#page-map .leaflet-container{
+#page-map .leaflet-container {
   z-index: 5;
 }
 
-#page-map .create-orphanages{
+#page-map .create-orphanage {
   position: absolute;
   right: 40px;
   bottom: 40px;
+
   z-index: 10;
 
   width: 64px;
   height: 64px;
   background: #15c3d6;
   border-radius: 20px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +62,6 @@
   transition: background-color 0.2s;
 }
 
-#page-map create-orphanages:hover{
+#page-map .create-orphanage:hover {
   background: #17d6eb;
 }
